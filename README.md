@@ -68,7 +68,7 @@ pip install numpy pandas scikit-learn lightgbm scipy matplotlib seaborn
 
 1. Change your dataset directory configurations within the main notebook script to match your native local folder paths:
    ```python
-   SAVE_DIR  = r"D:\proj folder sem 8"
+   SAVE_DIR  = r"yourdrive:\yourfolder"
    DATA_PATH = os.path.join(SAVE_DIR, "ctcvr_dataset.csv")
    ```
 2. Execute the notebook or Python script sequentially to run data processing, tripartite SVD building, network training, and automated visualization exports.
